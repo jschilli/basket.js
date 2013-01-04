@@ -285,7 +285,7 @@ asyncTest( 'handle the case where localStorage contains something we did not exp
 		});
 });
 
-asyncTest( 'file is fetched from server even it exists when isValidItem answers no', 2, function() {
+asyncTest( 'file is fetched from server even if it exists when isValidItem answers no', 2, function() {
 		basket
 			.require({ url: 'fixtures/stamp-script.js'})
 			.then(function() {
